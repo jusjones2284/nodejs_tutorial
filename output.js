@@ -48,3 +48,8 @@ const timer = setInterval(()=> {
     clearInterval(timer)
   }
 }, 1000)
+
+const chalk = require("chalk");
+console.log(chalk.green("This is nodejs tuitorial"));
+
+// console.log(chalk.green("This is nodejs tutorial"));
